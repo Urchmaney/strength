@@ -1,0 +1,2 @@
+# strength
+Torre strength assesment
