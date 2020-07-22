@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.skill-container {
+  display: flex;
+}
+
+.skill-bar {
+  width: 20px;
+  transform: rotate(90deg);
+  display: flex;
+}

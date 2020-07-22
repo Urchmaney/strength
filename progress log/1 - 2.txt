@@ -1,0 +1,3 @@
+- Finish up the services 
+- Test and fix issue with talent list showing
+- Implementing bar chart for skills.
