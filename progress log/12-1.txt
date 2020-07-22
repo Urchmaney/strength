@@ -1,0 +1,4 @@
+- Fix issue with node
+- Run the get Talent list
+- Start helper functions
+- Set up Url constants.

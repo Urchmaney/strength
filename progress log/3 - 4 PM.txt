@@ -1,0 +1,2 @@
+- Finish stylin the footer 
+- Add the footer to view talent component.

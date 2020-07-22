@@ -1,0 +1,2 @@
+- Implement the footer to hold pagination
+- trying to resolve bug on pagination.

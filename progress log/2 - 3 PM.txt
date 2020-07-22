@@ -1,0 +1,3 @@
+- Resolve issue with pagination
+- complete pagination.
+- start styling the footer.
