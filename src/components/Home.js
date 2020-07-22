@@ -8,10 +8,7 @@ const Home = props => (
     <header className="App-header">
       <div className="home-container">
         <div className="home-button" onClick={() => props.history.push('/talents')} role="presentation">
-          Talents
-        </div>
-        <div className="home-button">
-          Company
+          Talents Strength
         </div>
       </div>
     </header>

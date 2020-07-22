@@ -1,0 +1,2 @@
+- Finish styling the talent component.
+- Started styling the placement component.

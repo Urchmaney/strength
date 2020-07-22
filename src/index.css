@@ -12,12 +12,104 @@ code {
     monospace;
 }
 
-.skill-container {
+header{
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: lightgray;
+}
+
+.left-arrow{
+  float: left;
+  margin-left: 10px;
+}
+
+.right-arrow{
+  float: right;
+  margin-right: 10px;
+}
+
+.f-middle{
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.f-middle input{
+  width: 50px;
+}
+
+footer button {
+  border: none;
+  font-size: 30px;
+}
+
+.profile-container{
   display: flex;
 }
 
-.skill-bar {
-  width: 20px;
-  transform: rotate(90deg);
+.profile{
+  width: 20%;
+}
+
+.talent{
+  width: 80%;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px lightgray;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.skill{
+  width: 70%;
+}
+
+.searchBtn{
+  float: right;
+  border: none;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.placement{
+  width: 70%;
+  margin: auto;
   display: flex;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.percentage-display{
+  width: 30%;
+  background-color: lightblue;
+  height: inherit;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placement-container{
+  width: 70%;
+  text-align: center;
+  padding: 10px;
 }
