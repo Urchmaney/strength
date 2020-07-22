@@ -1,0 +1,2 @@
+- Started and finished working on the placement component 
+- started working on the placement List component.

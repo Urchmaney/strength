@@ -1,0 +1,2 @@
+- Add View Talent component 
+- Add Talent Dashboard

@@ -1,0 +1,2 @@
+- Resolved bug about Talent Dashboard.
+- Working on View Talent component.

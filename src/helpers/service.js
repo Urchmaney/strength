@@ -41,9 +41,17 @@ const getSingleOppurtunity = async id => {
   return oppurtunity;
 };
 
+const calculateOppurtunityFitness = (talentSkills, oppurtunitySkill) => {
+  if (!oppurtunitySkill.length) return 100;
+  const intersectSkill = oppurtunitySkill
+    .filter(skill => talentSkills.find(a => a.code === skill.code));
+  return Math.round((intersectSkill.length / oppurtunitySkill.length) * 100);
+};
+
 export {
   getOppurtunities,
   getSingleOppurtunity,
   getSingleTalent,
   getTalents,
+  calculateOppurtunityFitness,
 };
