@@ -1,0 +1,2 @@
+- Working on the talent component 
+- Trying to figure out the problem the application will solve.
